@@ -1,0 +1,16 @@
+{
+    "name": "txizanda/mvc",
+    "description": "Treinamento MVC-Webdesign em Foco",
+    "autoload": {
+        "psr-4": {
+            "Txizanda\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alfredo Txizanda",
+            "email": "txizanda.treinamento@gmail.com"
+        }
+    ],
+    "require": {}
+}
