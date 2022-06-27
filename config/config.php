@@ -1,7 +1,7 @@
 <?php 
 
     #Arquivos-Pastas Raízes
-    $pastaInterna = "";
+    $pastaInterna = "mvc_completo/mvc/";
 
     //caminho absoluto
     define('DIRPAGE', "http://{$_SERVER['HTTP_HOST']}/{$pastaInterna}");
@@ -13,4 +13,17 @@
     }
 
     //pastas específicas
-    define('DIRIMG', "http://{$_SERVER['HTTP_HOST']}/{$pastaInterna}public/img");
+    define('DIRIMG',    DIRPAGE."public/img/");
+    define('DIRJS',     DIRPAGE."public/js/");
+    define('DIRCSS',    DIRPAGE."public/css/");
+    define('DIRADMIN',  DIRPAGE."public/admin/");
+    define('DIRAUDIO',  DIRPAGE."public/audio/");
+    define('DIRDESIGN', DIRPAGE."public/design/");
+    define('DIRFONTS',  DIRPAGE."public/fonts/");
+    define('DIRVIDEO',  DIRPAGE."public/video/");
+
+    //Definições de Base de dados 
+    define('HOST', "localhost");
+    define('DB', "sistema");
+    define('USER', "root");
+    define('PaSS', "");
