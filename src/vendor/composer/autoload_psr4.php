@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Txizanda\\Mvc\\' => array($baseDir . '/src'),
+    'Src\\' => array('/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'App\\' => array('/app'),
 );

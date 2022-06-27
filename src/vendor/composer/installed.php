@@ -3,7 +3,7 @@
         'name' => 'txizanda/mvc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a014c52599254bf356bce046cf1e83d6ac7d6d56',
+        'reference' => 'f49ee7c15cff7e9ab1a909f6df325828507d3831',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'txizanda/mvc' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a014c52599254bf356bce046cf1e83d6ac7d6d56',
+            'reference' => 'f49ee7c15cff7e9ab1a909f6df325828507d3831',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
