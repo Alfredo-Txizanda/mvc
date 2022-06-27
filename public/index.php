@@ -4,4 +4,6 @@
 
     require_once("../src/vendor/autoload.php");
 
-    use App;
+    use App\teste;
+
+    $teste = new teste();

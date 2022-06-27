@@ -24,7 +24,7 @@ class ComposerStaticInit25965222700a8866bd846046b03584ce
     public static $prefixDirsPsr4 = array (
         'Src\\' => 
         array (
-            0 => '/src',
+            0 => __DIR__ . '/../..' . '/',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (
@@ -32,7 +32,7 @@ class ComposerStaticInit25965222700a8866bd846046b03584ce
         ),
         'App\\' => 
         array (
-            0 => '/app',
+            0 => __DIR__ . '/../..' . '/../app',
         ),
     );
 
