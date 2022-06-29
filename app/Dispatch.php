@@ -31,10 +31,16 @@
          */
         public function setParam($Param) {$this->Param = $Param;}
 
-        
+        /**
+         * @return mixed
+         */
+        public function getObj(){return $this->Obj;}
 
+        /**
+         * @param mixed $Obj
+         */
+        public function setObj($Obj) {$this->Obj = $Obj;}
 
-        
         //método Constructor
         public function __construct() {
             self::addController();
