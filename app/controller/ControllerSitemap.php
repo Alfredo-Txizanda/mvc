@@ -3,7 +3,7 @@
     namespace App\Controller;
 
     class ControllerSitemap {
-        public function __construct() {
-            echo "Controller do Sitemap";
+        public function testeMetodo() {
+            echo "<h1>Este método existe!</h1>";
         }
     }
