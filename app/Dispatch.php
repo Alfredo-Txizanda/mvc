@@ -14,18 +14,22 @@
         /**
          * @return mixed
          */
-        public function getMethod()
-        {
-            return $this->Method;
-        }
+        public function getMethod() {return $this->Method;}
 
         /**
          * @param mixed $Method
          */
-        public function setMethod($Method)
-        {
-            $this->Method = $Method;
-        }
+        public function setMethod($Method) {$this->Method = $Method;}
+
+        /**
+         * @return array
+         */
+        public function getParam() { return $this->Param;}
+
+        /**
+         * @param array $Param
+         */
+        public function setParam($Param) {$this->Param = $Param;}
 
         
 
