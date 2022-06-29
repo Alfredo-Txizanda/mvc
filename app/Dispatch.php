@@ -11,6 +11,22 @@
         private $Param = [];
         private $Obj;
 
+        /**
+         * @return mixed
+         */
+        public function getMethod()
+        {
+            return $this->Method;
+        }
+
+        /**
+         * @param mixed $Method
+         */
+        public function setMethod($Method)
+        {
+            $this->Method = $Method;
+        }
+
         
 
 
