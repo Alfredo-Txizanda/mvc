@@ -2,8 +2,8 @@
 
     namespace App\Controller;
 
-    class ControllerSitemap {
+    class Controller404 {
         public function __construct() {
-            echo "Controller do Sitemap";
+            echo "<h1>Esta página não existe!</h1>";
         }
     }

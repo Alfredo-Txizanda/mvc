@@ -20,7 +20,7 @@
         private function addController() {
             $rotaController = $this->getRota();
             $nameSpace = "App\Controller\\{$rotaController}";
-            $thi
+            $this->Obj = new $nameSpace;
         }
 
         //método add método controller

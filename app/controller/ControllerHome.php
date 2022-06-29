@@ -1,9 +1,10 @@
-<?php 
+<?php
 
     namespace App\Controller;
 
-    class ControllerSitemap {
+    class ControllerHome {
+
         public function __construct() {
-            echo "Controller do Sitemap";
+            echo "Página Inicial";
         }
     }

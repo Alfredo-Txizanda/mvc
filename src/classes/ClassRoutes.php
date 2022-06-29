@@ -29,7 +29,7 @@
                     return "ControllerHome";
                 }
             } else {
-                return "ControllerHome";
+                return "Controller404";
             }
         }
     }
