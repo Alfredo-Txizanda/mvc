@@ -14,7 +14,7 @@
         /**
          * @return mixed
          */
-        public function getMethod() {return $this->Method;}
+        protected function getMethod() {return $this->Method;}
 
         /**
          * @param mixed $Method
@@ -24,7 +24,7 @@
         /**
          * @return array
          */
-        public function getParam() { return $this->Param;}
+        protected function getParam() { return $this->Param;}
 
         /**
          * @param array $Param
@@ -60,9 +60,9 @@
         //método add método controller
         private function addMethod() {
             if (method_exists($this->Obj, $this->parserUrl()[1])) {
-
-            } else {
-                
+                $this->setMethod(("{$this->parserUrl()[1]}"));
+                self::addParam();
+                call_user_func_array([$this->Obj, $this->getMethod()], $this->getParam());
             }
         }
 
