@@ -3,11 +3,7 @@
     namespace App\Controller;
 
     class ControllerSitemap {
-        public function testeMetodo() {
-            echo "<h1>Este método existe!</h1>";
-        }
-
-        public function teste1() {
-            echo "<h2>Método teste 2</h2>";
+        public function testeMetodo($Par1, $Par2, $Par3) {
+            echo "O parâmetro 1 é <strong>{$Par1}</strong>, o parâmetro 2 é <strong>{$Par2}</strong> e o parâmetro 3 é <strong>{$Par3}</strong>";
         }
     }

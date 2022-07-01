@@ -67,5 +67,16 @@
         }
 
         //método add parâmetros do controller
-        private function addParam(){}
+        private function addParam(){
+            $contArray = count($this->parserUrl());
+
+            if ($contArray > 2) {
+                foreach ($this->parserUrl() as $key => $value) {
+                    if ($key > 1) {
+                        $this->setParam($this->Param += [$key => $value]);
+                    }
+                }
+                var_dump($this->getParam());
+            }
+        }
     }
