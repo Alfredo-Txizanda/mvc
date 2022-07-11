@@ -76,7 +76,6 @@
                         $this->setParam($this->Param += [$key => $value]);
                     }
                 }
-                var_dump($this->getParam());
             }
         }
     }
